@@ -1,0 +1,18 @@
+#######################################
+add below depency
+
+1)web
+2)eureka server
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+		</dependency>
+####################################################
+add @EnableEurekaServer in starter class
+#######################################
+by default port is 8761 [if we want we can change port number useing  server.port=9090]
